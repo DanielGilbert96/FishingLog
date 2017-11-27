@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_margin="20dp" android:layout_width="match_parent">
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+            <ImageView android:adjustViewBounds="true" android:background="@mipmap/add_btn" android:id="@+id/post_image" android:layout_height="wrap_content" android:layout_width="match_parent" android:scaleType="centerCrop"/>
+
+            <TextView android:id="@+id/post_specie" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:text="@string/fishing_row_post_specie_text" android:textAlignment="center" android:textSize="16sp" android:textStyle="bold"/>
+
+            <TextView android:id="@+id/post_method" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingTop="10dp" android:text="@string/fishing_row_post_method_text" android:textAlignment="center"/>
+
+            <TextView android:id="@+id/post_weight" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingTop="10dp" android:text="@string/fishing_row_post_weight_text" android:textAlignment="center"/>
+
+            <TextView android:id="@+id/post_date" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingTop="10dp" android:text="@string/fishing_row_post_date_text" android:textAlignment="center"/>
+
+            <Button android:id="@+id/post_location" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingTop="10dp" android:text="@string/fishing_row_post_location_text" android:textAlignment="center"/>
+        </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<string name="activity_post_Specie_hint">Fish Species...</string>
+<string name="activity_post_Weight_hint">Weight...</string>
+<string name="activity_post_Method_hint">Method...</string>
+<string name="activity_post_DateTime_hint">Date and Time...</string>
+<string name="activity_post_SaveData_text">Save</string>
+<string name="activity_post_location_text">Location</string>
+<string name="fishing_row_post_specie_text">Specie of Fish goes here</string>
+<string name="fishing_row_post_method_text">Method goes here</string>
+<string name="fishing_row_post_weight_text">Weight of Fish goes here</string>
+<string name="fishing_row_post_date_text">Date Of Fish Goes Here</string>
+<string name="fishing_row_post_location_text">Fishing Location</string>
+</resources>
